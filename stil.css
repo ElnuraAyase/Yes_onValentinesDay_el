@@ -1,1 +1,12 @@
-to be here later
+/* background styling */
+.background{
+  position: fixed;
+  top: 0;
+  left: 0:
+  width: 100;
+  length: 100;
+  background-image: url('url_for_img.gif'); /* replace with workin one */
+  background-size: cover;
+  z-index: -1;
+  
+}
