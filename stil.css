@@ -3,17 +3,17 @@
   position: fixed;
   top: 0;
   left: 0:
-  width: 100;
-  length: 100;
-  background-image: url('url_for_img.gif'); /* replace with workin one */
+  width: 100%;
+  height: 100%;
+  background-image: url('love2.gif'); /* replace with workin one */
   background-size: cover;
   z-index: -1;  
 }
 
-/* stiling question  */
+/* styling question  */
 
 .question{
-  font_size: 24px;
+  font-size: 24px;
   margin-bottom: 20px;
   text-align: center;
 }
@@ -31,13 +31,13 @@ button{
   border: none;
   border-radius: 5px;
 }
-/* stilling yesButton  */
+/* styling yesButton  */
 
   #yesButton{
   background-color:  #4CAF50; /* green*/
-  color: white  /* text */
+  color: white;  /* text */
 }
-/* stiling noButton +replacement  */
+/* stiling noButton + replacement  */
 
 #noButton, #noButton:: after {
   background-color: #FF5733; /* red */
@@ -45,7 +45,7 @@ button{
 }
 
 button: hover{
-  opacity: 0.8 /* reduce opacity on hover */
+  opacity: 0.8; /* reduce opacity on hover */
 }
 
 /*  adjusting no button size*/
