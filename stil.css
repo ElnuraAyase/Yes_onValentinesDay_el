@@ -48,8 +48,11 @@ button: hover{
   opacity: 0.8 /* reduce opacity on hover */
 }
 
+/*  adjusting no button size*/
 
-
+#noButton {
+  transition: margin-left 0.3s; /* for soothing the margin */
+}
 
 
 
