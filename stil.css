@@ -2,7 +2,7 @@
 .background{
   position: fixed;
   top: 0;
-  left: 0:
+  left: 0;
   width: 100%;
   height: 100%;
   background-image: url('love2.gif'); /* replace with workin one */
@@ -39,12 +39,12 @@ button{
 }
 /* stiling noButton + replacement  */
 
-#noButton, #noButton:: after {
+#noButton, #noButton::after {
   background-color: #FF5733; /* red */
   color: white; /* text */
 }
 
-button: hover{
+button:hover{
   opacity: 0.8; /* reduce opacity on hover */
 }
 
