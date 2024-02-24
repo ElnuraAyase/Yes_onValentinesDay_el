@@ -29,7 +29,14 @@ noButton.addEventListener('click',()  =>{
     noButton.style.display = 'none';
   }
   
-  
+  function moveElements() {
+    const availableSpaceLeft = (window.innerWidth - question.offsetWidth) / 2;
+    const availableSpaceTop = (window.innerHeight - question.offsetHeight) / 2;
+
+    question.style.left = `${availableSpaceLeft}px`;
+    question.style.top = `${availableSpaceTop}px`;
+}
+
   
 } );
 
